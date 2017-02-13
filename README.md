@@ -1,5 +1,19 @@
 # Google Doodle
 # Brainstorming Ideas
 
+*food themed days (doughtnut etc)
 
-Put information about your project here. 
+*first day of different seasons
+
+* all major us holidays
+
+
+## Research for ideas
+* links
+
+* movies
+
+*presentations
+
+*ted talks 
+
