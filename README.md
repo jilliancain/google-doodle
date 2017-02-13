@@ -1,3 +1,5 @@
-# Web 2 Starter
+# Google Doodle
+# Brainstorming Ideas
+
 
 Put information about your project here. 
