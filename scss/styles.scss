@@ -2,8 +2,33 @@
 
 
 @import 'google-homepage'; 
-body {
+
+
+//first frame
+img
+{
+opacity: .5;
+    width:50%;
+transform: scale(.25) rotate(0);
+ transition: transform 1s;
     
-    background: white;}
+}
+
+//last frame
+
+img:hover
+
+{
+    opacity:1;
+  transform:scale(1.5) rotate(180deg);
+}
 
 
+  //svg line
+
+	.line
+{
+    fill:none;
+    stroke: teal;
+    stroke-width:30;
+    stroke-miterlimit:10;}

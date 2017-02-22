@@ -13,4 +13,4 @@ console.log(numRand);
 
 //display random images
 
-$('img').attr('src', eval('img' + numRand) );
+$('#random').attr('src', eval('img' + numRand) );
