@@ -4,6 +4,7 @@
 @import 'google-homepage'; 
 
 
+$bg-default : white;
 
 //first frame
 
@@ -22,27 +23,57 @@
 }
 
 // Absolute Children
-#circle,
+#sugar,
 #square,
-#triangle {
+#mnm {
   position: absolute;
 }
 
-#circle {
-  left: 300px;
+#sugar {
+  left: 500px;
   top: 150px;
+    width: 100px;
+ 
+    
 }
 
-#square {
+#chocolate {
   bottom: 0;
   right: 0;
+  width: 100px;
 }
 
-#triangle {
+#mnm {
   left: -12px;
+    width: 100px;
 }
 
 // Override Defaults
 h1 {
   margin: 0;
+}
+
+
+
+
+
+#stage:hover #chocolate {
+  background: red;
+  fill: $bg-default;
+  // Transform half size  
+  transform: scale(.5);
+}
+
+#stage:hover #sugar {
+  background: green;
+  fill: $bg-default;
+  // Transform move down
+  transform: translateY(200px);
+}
+
+#stage:hover #mnm {
+  background: blue;
+  fill: $bg-default;
+  // Transform move down
+  transform: translate(50px, 50px) rotate(45deg);
 }
