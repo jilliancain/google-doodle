@@ -10,3 +10,11 @@ console.log(numRand);
 
 // Display randomized images
 $('#random').attr( 'src', eval('img' + numRand) );
+
+
+
+// draw svg
+
+var mySVG = $('#title').drawsvg();
+
+mySVG.drawsvg('animate');
