@@ -3,22 +3,46 @@
 
 @import 'google-homepage'; 
 
-body 
-{background: black; 
-
-}
 
 
 //first frame
 
-
-
-//last frame
-
-
-
-  //svg line
-
-
+/* Doodle Stage */
+#stage {
+  background: #ccc;
+  height: 300px;
+  width: 600px;
   
+    
+  // Hide Overflowing Elements
+  overflow: hidden;
+  
+  // Relative Parent
+  position: relative;
+}
 
+// Absolute Children
+#circle,
+#square,
+#triangle {
+  position: absolute;
+}
+
+#circle {
+  left: 300px;
+  top: 150px;
+}
+
+#square {
+  bottom: 0;
+  right: 0;
+}
+
+#triangle {
+  left: -12px;
+}
+
+// Override Defaults
+h1 {
+  margin: 0;
+}
