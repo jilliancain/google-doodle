@@ -1,5 +1,5 @@
 // Store 3 images
-var img0 = '';
+var img0 = 'img/backgroundcookie-01.png';
 var img1 = '../img/300.jpg';
 var img2 = '../img/400.jpg';
 

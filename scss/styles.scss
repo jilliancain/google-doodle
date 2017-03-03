@@ -10,6 +10,9 @@ $bg-default : white;
 
 
 
+
+
+
 // Keyframe Animation
 @keyframes fadeInLeft {
   0% { 
@@ -33,9 +36,10 @@ $bg-default : white;
 
 /* Doodle Stage */
 #stage {
-  background: #ccc;
+ background: #fff;
   height: 300px;
   width: 600px;
+overflow: hidden;
  animation: fadeInLeft 1s 2s 3 forwards;
 }
 
@@ -142,3 +146,8 @@ h1 {
     transform: none;
   }
 }
+
+
+
+
+
