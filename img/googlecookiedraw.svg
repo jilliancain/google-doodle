@@ -1,53 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>National Cookie Day</title>
- 
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <!-- Normalize CSS makes browsers render all elements more consistently -->
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">  
-  <!-- YOUR STYLES GO HERE -->
-  <link rel="stylesheet" href="css/styles.css">	
-	
-	
-	
-<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/img/favicons/android-chrome-256x256.png" sizes="16x16">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#ffffff">
-
-
-</head>
-<body>
-	
-    
-    
-    <!-- Doodle Stage -->
-    <div id="stage">
-    
-              <img id="random" src="img/backgroundcookie-01.png" alt="Chocolate Chip Cookie">
-         <img id="random" src="img/backgroundcookie2.png" alt="M&M Cookie">
-         
-         <img id="random" src="img/backgroundcookie3.png.png" alt="Sugar Cookie">
-         
-
-    
-    
-     <img id="sugar" src="img/cookie.svg" alt="Sugar Cookie" />
-  
-     <img id="chocolate" src="img/cookie2.svg" alt="Chocolate Chip Cookie" />
-     
-  <img id="mnm" src="img/cookie3.svg" alt="M&M Cookie" />
-     
-        
-         <!--svg -->
-         
-           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 378 80.9" style="enable-background:new 0 0 378 80.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{enable-background:new    ;}
@@ -113,40 +66,3 @@
 		c3.3-5.3,4.9-10.3,4.9-15C190,38.7,190,38,189.9,37.4z"/>
 </g>
 </svg>
-
-         
-         
-         
-         
-         
-       
-      
-</div>
-    
-    
-    
-      <!-- google stage do not edit -->
-    <input type="text" />
-    <div>
-        <button> Google Search</button>
-        <button> I'm Feeling Lucky</button>
-    </div>
-
-	
-
-
-  <!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <!-- jQuery Plugin -->
-  <script src="js/plugin.js"></script>
-  
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="jquery.drawsvg.js"></script>
-  <!-- YOUR SCRIPTS GO HERE -->
-  <script src="js/scripts.js"></script>
-  
-
-
-
-</body>
-</html>
