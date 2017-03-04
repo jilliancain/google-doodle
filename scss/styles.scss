@@ -10,16 +10,15 @@ $bg-default : white;
 body {background:#3D7DEC;}
 
 
+img#title
+
 
 
 img#random
 
-{
-    width: 600px;
+{width: 600px;
 height: 300px;
-    z-index: -1;
-
-}
+    z-index: -1;}
 
 
 // Keyframe Animation
@@ -76,7 +75,7 @@ overflow: hidden;
 }
 
 #chocolate {
-  left: 300px;
+  left: 500px;
   top: 150px;
   width: 100px;
     z-index:200;
@@ -84,8 +83,8 @@ overflow: hidden;
 }
 
 #mnm {
-  bottom: 0;
-  right: 0;
+    left: 500px;
+    top:150px;
     width: 100px;
     z-index: 200;
 
@@ -111,14 +110,14 @@ h1 {
   background: green;
   fill: $bg-default;
   // Transform move down
-  transform: translateY(100px);
+  transform: translateY(-100px);
 }
 
 #stage:hover #mnm {
   background: blue;
   fill: $bg-default;
   // Transform move down
-  transform: translate(50px, 50px) rotate(45deg);
+  transform: translate(40px, 40px) rotate(15deg);
 }
 
 
