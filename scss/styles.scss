@@ -12,6 +12,16 @@ body {background:#3D7DEC;}
 
 
 
+img#random
+
+{
+    width: 600px;
+height: 300px;
+z-index: -1;
+
+}
+
+
 // Keyframe Animation
 @keyframes fadeInLeft {
   0% { 
@@ -61,19 +71,20 @@ overflow: hidden;
   left: 500px;
   top: 150px;
     width: 100px;
- 
-    
+   
 }
 
 #chocolate {
   bottom: 0;
   right: 0;
   width: 100px;
+  
 }
 
 #mnm {
   left: -12px;
     width: 100px;
+
 }
 
 // Override Defaults
