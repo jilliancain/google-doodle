@@ -17,7 +17,7 @@ img#random
 {
     width: 600px;
 height: 300px;
-z-index: -1;
+    z-index: -1;
 
 }
 
@@ -71,19 +71,23 @@ overflow: hidden;
   left: 500px;
   top: 150px;
     width: 100px;
+    z-index:200;
    
 }
 
 #chocolate {
-  bottom: 0;
-  right: 0;
+  left: 300px;
+  top: 150px;
   width: 100px;
+    z-index:200;
   
 }
 
 #mnm {
-  left: -12px;
+  bottom: 0;
+  right: 0;
     width: 100px;
+    z-index: 200;
 
 }
 
