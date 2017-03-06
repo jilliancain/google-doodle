@@ -1,7 +1,7 @@
 // Store 3 images
-var img0 = '../img/backgroundcookie1.png';
-var img1 = '../img/backgroundcookie2.png';
-var img2 = '../img/backgroundcookie3.png';
+var img0 = 'img/backgroundcookie1.png';
+var img1 = 'img/backgroundcookie2.png';
+var img2 = 'img/backgroundcookie3.png';
 
 // Get random number
 var max = 3;
